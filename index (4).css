@@ -12,13 +12,23 @@ body {
     font-family: sans-serif;    /* un tipus de lletra adient per a llocs web */
     background-color: #FCDEE0;    /* color de fons en format #RRGGBB */
 }
-
 #superior {
     display: flex;
     height: 8vmax;    /* alçària d'un 8% respecte l'alçària de la pantalla */
     justify-content: center;    /* centra els elements en la direcció de disposició */
     align-items: center;    /* centra els elements en la direcció perpendicular a la de disposició */
     font-size: 4vmax;    /* mida d'un 4% respecte l'alçària de la pantalla */
-    color: Green;    /* color del text */
+    color: white;    /* color del text */
     background-color: #950E17;    /* color de fons */
+.seccio {
+    flex: 1;    /* les seccions ocupen tot l'espai disponible */
+    display: none;    /* les seccions s'inicien ocultes, excepte la primera */
+}
+#seccio_1 {
+    display: flex;    /* única secció que es mostra a l'inici */
+    justify-content: center;    /* contingut centrat en la direcció de disposició */
+    align-items: center;    /* contingut centrat en la direcció transversal */
+    font-size: 4vmax;
+#menu {
+    height: 8vmax;    /* alçària d'un 8% respecte l'alçària de la pantalla */
 }
