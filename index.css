@@ -41,6 +41,6 @@ body {
     color: white;
     background-color: #950E17;
     font-size: 5vmax;
-    cursor: pointer;    /* en ordinadors, indica que s'hi pot fer clic */html { 
+    cursor: pointer;    /* en ordinadors, indica que s'hi pot fer clic */
     height: -webkit-fill-available;    /* per a dispositius mòbils */
 }
